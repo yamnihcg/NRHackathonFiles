@@ -1,0 +1,9 @@
+---
+integrations:
+  - name: nri-flex
+    interval: 30s
+    config:
+      name: csvFileExample
+      apis:
+        - name: csvFile
+          file: C:\Program Files\New Relic\newrelic-infra\integrations.d\reddit_info.csv
